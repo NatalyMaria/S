@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiTech - Soluções Logísticas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="./logo.jpg" alt="Logo da Empresa">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#trabalhe conosco">Trabalhe Conosco</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <header>
+        <h1>Bem-vindo à LogiTech - Soluções Logísticas</h1>
+      </header>
+    
+      <section class="missao">
+        <h2>Missão</h2>
+        <p>Nossa missão é fornecer soluções logísticas eficientes e inovadoras, superando as expectativas de nossos clientes e contribuindo para o crescimento e sucesso de seus negócios. Buscamos constantemente otimizar processos, garantir a segurança e integridade das cargas, e promover a sustentabilidade em todas as nossas operações.</p>
+      </section>
+      <section class="visao">
+        <h2>Visão</h2>
+        <p>Nossa visão é ser reconhecida como a principal referência em logística, destacando-nos pela excelência em serviços, inovação constante e compromisso com a satisfação total do cliente.</p>
+      </section>
+      <section class="valores">
+        <h2>Valores</h2>
+        <p>Excelência, integridade, inovação, comprometimento e responsabilidade social e ambiental. Esses princípios norteiam todas as nossas ações, garantindo serviços de alta qualidade, ética nas relações, constante busca por melhorias, dedicação ao secesso do cliente e compromisso com a sustentabilidade.</p>
+      </section>
+      <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service">
+          <h3>Transporte de Cargas</h3>
+          <p>Oferecemos transporte rápido e seguro para suas cargas, para qualquer destino.</p>
+        </div>
+        <div class="service">
+          <h3>Armazenamento</h3>
+          <p>Nossos armazéns oferecem instalações seguras e de alta qualidade para suas necessidades de armazenamento de longo ou curto prazo.</p>
+        </div>
+      </section>
+      
+      <section id="trabalhe conosco">
+        <h2>Trabalhe Conosco:</h2>
+        <form action="/enviar-mensagem" method="post">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="curriculo">Envie seu currículo (PDF ou Word)</label>
+            <input type="file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx" required>
+          </div>
+          <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      
+      <footer>
+        <p>&copy; 2024 LogiTech</p>
+      </footer>
+
+      <script src="./script.js"></script>
+</body>
+</html>
